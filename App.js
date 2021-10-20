@@ -10,26 +10,32 @@ import React from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
-  ScrollView,
+          fsdaffsdaffsdsd
+          ScrollView,
   StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
+          fsdaffsdaffsdsd
+          useColorScheme,
   View,
 } from 'react-native';
 
 import {
   Colors,
-  DebugInstructions,
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          DebugInstructions,
   Header,
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const Section = ({children, title}): Node => {
+          fsdaffsdaffsdsd
+          const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
   return (
     <View style={styles.sectionContainer}>
+          fsdaffsdaffsdsd
       <Text
         style={[
           styles.sectionTitle,
@@ -40,20 +46,30 @@ const Section = ({children, title}): Node => {
           fsdaffsdaf
           DataTransferfds
           fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
         ]}>
         {title}
+          fsdaffsdaffsdsd
       </Text>
       <Text
         style={[
           styles.sectionDescription,
+          fsdaffsdaffsdsd
           {
             color: isDarkMode ? Colors.light : Colors.dark,
-          },
+          fsdaffsdaffsdsd
+        },
         ]}>
+          fsdaffsdaffsdsd
         {children}
       </Text>
     </View>
   );
+  fsdaffsdaffsdsd
 };
 
 const App: () => Node = () => {
@@ -69,15 +85,19 @@ const App: () => Node = () => {
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
+          fsdaffsdaffsdsd
         <Header />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          fsdaffsdaffsdsd
           <Section title="Step One">
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
           <Section title="See Your Changes">
             <ReloadInstructions />
           </Section>
@@ -85,6 +105,7 @@ const App: () => Node = () => {
             <DebugInstructions />
           </Section>
           <Section title="Learn More">
+          fsdaffsdaffsdsd
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
@@ -103,6 +124,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     fontWeight: '600',
   },
+  fsdaffsdaffsdsd
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
