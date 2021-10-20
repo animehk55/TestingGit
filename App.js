@@ -21,6 +21,7 @@ import {
 import {
   Colors,
   DebugInstructions,
+  fsdaffsdaffsdsd
   Header,
   LearnMoreLinks,
   ReloadInstructions,
@@ -28,17 +29,24 @@ import {
 
 const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
+  fsdaffsdaffsdsd
   return (
     <View style={styles.sectionContainer}>
       <Text
-        style={[
+          fsdaffsdaffsdsd
+          style={[
           styles.sectionTitle,
           {
-            color: isDarkMode ? Colors.white : Colors.black,
+          fsdaffsdaffsdsd
+          color: isDarkMode ? Colors.white : Colors.black,
           },
+          fsdaffsdaffsdsd
           fsdaf
+          fsdaffsdaffsdsd
           fsdaffsdaf
+          fsdaffsdaffsdsd
           DataTransferfds
+          fsdaffsdaffsdsd
           fsdaffsdaffsdsd
         ]}>
         {title}
@@ -46,6 +54,7 @@ const Section = ({children, title}): Node => {
       <Text
         style={[
           styles.sectionDescription,
+          fsdaffsdaffsdsd
           {
             color: isDarkMode ? Colors.light : Colors.dark,
           },
