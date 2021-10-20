@@ -37,6 +37,7 @@ import {
   return (
     <View style={styles.sectionContainer}>
           fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
       <Text
           fsdaffsdaffsdsd
           style={[
@@ -48,7 +49,10 @@ import {
           fsdaffsdaffsdsd
           fsdaf
           fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
           fsdaffsdaf
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
           fsdaffsdaffsdsd
           DataTransferfds
           fsdaffsdaffsdsd
@@ -57,19 +61,24 @@ import {
           fsdaffsdaffsdsd
           fsdaffsdaffsdsd
           fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
         ]}>
+          fsdaffsdaffsdsd
         {title}
+          fsdaffsdaffsdsd
           fsdaffsdaffsdsd
       </Text>
       <Text
         style={[
           styles.sectionDescription,
           fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
           {
             color: isDarkMode ? Colors.light : Colors.dark,
           fsdaffsdaffsdsd
         },
         ]}>
+          fsdaffsdaffsdsd
           fsdaffsdaffsdsd
         {children}
       </Text>
