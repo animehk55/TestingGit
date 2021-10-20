@@ -1,14 +1,14 @@
 {
   "name": "awesomeprojecttest",
   "version": "0.0.1",
-  "private": true,
+  "private": true,afsdaf
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native rfasdfsdun-ios",
     "start": "react-native start",
     "test": "jest",
     "lint": "eslint ."fsadf
-  },
+  },fsdf
   "dependencies": {
     "react": "17.0.2",
     "react-native": "0.66.1"
