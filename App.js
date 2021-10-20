@@ -36,6 +36,10 @@ const Section = ({children, title}): Node => {
           {
             color: isDarkMode ? Colors.white : Colors.black,
           },
+          fsdaf
+          fsdaffsdaf
+          DataTransferfds
+          fsdaffsdaffsdsd
         ]}>
         {title}
       </Text>
