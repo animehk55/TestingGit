@@ -10,88 +10,125 @@ import React from 'react';
 import type {Node} from 'react';
 import {
   SafeAreaView,
-  ScrollView,
+          fsdaffsdaffsdsd
+          ScrollView,
   StatusBar,
   StyleSheet,
   Text,
-  useColorScheme,
+          fsdaffsdaffsdsd
+          useColorScheme,
   View,
 } from 'react-native';
 
 import {
   Colors,
-  DebugInstructions,
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          DebugInstructions,
   Header,
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const Section = ({children, title}): Node => {
+          fsdaffsdaffsdsd
+          const Section = ({children, title}): Node => {
   const isDarkMode = useColorScheme() === 'dark';
+  fsdaffsdaffsdsd
   return (
     <View style={styles.sectionContainer}>
+          fsdaffsdaffsdsd
       <Text
-        style={[
+          fsdaffsdaffsdsd
+          style={[
           styles.sectionTitle,
           {
-            color: isDarkMode ? Colors.white : Colors.black,
+          fsdaffsdaffsdsd
+          color: isDarkMode ? Colors.white : Colors.black,
           },
+          fsdaffsdaffsdsd
           fsdaf
+          fsdaffsdaffsdsd
           fsdaffsdaf
+          fsdaffsdaffsdsd
           DataTransferfds
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
           fsdaffsdaffsdsd
         ]}>
         {title}
+          fsdaffsdaffsdsd
       </Text>
       <Text
         style={[
           styles.sectionDescription,
+          fsdaffsdaffsdsd
           {
             color: isDarkMode ? Colors.light : Colors.dark,
-          },
+          fsdaffsdaffsdsd
+        },
         ]}>
+          fsdaffsdaffsdsd
         {children}
       </Text>
     </View>
   );
+  fsdaffsdaffsdsd
 };
 
 const App: () => Node = () => {
   const isDarkMode = useColorScheme() === 'dark';
 
-  const backgroundStyle = {
+          fsdaffsdaffsdsd
+          const backgroundStyle = {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
 
   return (
     <SafeAreaView style={backgroundStyle}>
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
       <StatusBar barStyle={isDarkMode ? 'light-content' : 'dark-content'} />
       <ScrollView
         contentInsetAdjustmentBehavior="automatic"
         style={backgroundStyle}>
+          fsdaffsdaffsdsd
         <Header />
         <View
           style={{
             backgroundColor: isDarkMode ? Colors.black : Colors.white,
           }}>
+          fsdaffsdaffsdsd
           <Section title="Step One">
-            Edit <Text style={styles.highlight}>App.js</Text> to change this
-            screen and then come back to see your edits.
+            Edit <Text style={styles.highlight          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
+          our edits.
           </Section>
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
           <Section title="See Your Changes">
             <ReloadInstructions />
+          fsdaffsdaffsdsd
           </Section>
           <Section title="Debug">
+          fsdaffsdaffsdsd
+          fsdaffsdaffsdsd
             <DebugInstructions />
           </Section>
+          fsdaffsdaffsdsd
           <Section title="Learn More">
+          fsdaffsdaffsdsd
             Read the docs to discover what to do next:
           </Section>
           <LearnMoreLinks />
+          fsdaffsdaffsdsd
         </View>
       </ScrollView>
     </SafeAreaView>
   );
+  fsdaffsdaffsdsd
 };
 
 const styles = StyleSheet.create({
@@ -100,9 +137,10 @@ const styles = StyleSheet.create({
     paddingHorizontal: 24,
   },
   sectionTitle: {
-    fontSize: 24,
+    fontSize: 24,fasdf
     fontWeight: '600',
   },
+  fsdaffsdaffsdsd
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
